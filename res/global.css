@@ -1,0 +1,157 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  background: #33312E;
+  size: 50px
+}
+
+div.grid {
+  display: grid;
+  grid-template-columns: [first] 50%;
+  grid-template-rows: [row1-end row2-start] 1000px [row2-end row3-start] 1500 [row]
+}
+
+h1 {
+  font-family: 'Montserrat';
+  color: #E3DFD9;
+  font-weight: 700;
+  font-size: 5em;
+  line-height: 1em;
+  max-width: 7ch
+}
+
+h2 {
+  font-family: 'Montserrat';
+  color: #E3DFD9;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1.25em;
+  max-width: 16ch
+}
+
+h3 {
+  font-family: 'Montserrat';
+  color: #E3DFD9;
+  text-align: right;
+  font-weight: 500;
+  font-size: 4em;
+  line-height: 1em;
+  max-width: 16ch
+}
+
+h4 {
+  font-family: 'Montserrat';
+  color: #E3DFD9;
+  text-align: right;
+  font-weight: 400;
+  font-size: 2em;
+  line-height: 1em;
+  max-width: 32ch
+}
+
+h5.right {
+  font-family: 'Montserrat';
+  color: #33312E;
+  text-align: right;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 1em;
+}
+
+h5.left {
+  font-family: 'Montserrat';
+  color: #33312E;
+  text-align: left;
+  font-weight: 500;
+  font-size: 2em;
+  line-height: 1em
+}
+
+p.right {
+  font-family: 'Montserrat';
+  color: #33312E;
+  text-align: right;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.25em;
+  max-width: 35ch
+}
+
+p.left {
+  font-family: 'Montserrat';
+  color: #33312E;
+  text-align: left;
+  font-weight: 400;
+  font-size: 1em;
+  line-height: 1.25em;
+  max-width: 35ch
+}
+
+img.wordmark {}
+
+img.logoimg {
+  max-width: 50px;
+}
+
+div.name {
+  grid-column: 2;
+  padding-left: 150px;
+}
+
+div.about {
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+div.logo {
+  background-color: #E3DFD9;
+  grid-column: 1;
+  padding-top: 100px;
+}
+
+div.logoimg {
+  background-color: #E3DFD9;
+  padding-top: 50px;
+}
+
+div.sunsetlogo {
+  background-color: #E0DBD3;
+  max-width: 400px;
+  padding-left: 60px;
+  padding-right: 75px;
+  padding: 50px;
+}
+
+div.sunset {
+  background-color: #E0DBD3;
+  padding: 50px;
+}
+
+div.album {
+  background-color: #E3DFD9;
+  padding: 50px;
+}
+
+div.albumcover {
+  background-color: #E3DFD9;
+  padding-left: 50px;
+  padding: 50px;
+}
+
+a:link {
+  color: #33312E
+}
+
+a:visited {
+  color: #33312E
+}
+
+a:hover {
+  color: #45433f
+}
+
+a:active {
+  color: #33312E
+}
